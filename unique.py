@@ -7,5 +7,4 @@ for i in range(times):
         places.append(str(input()))
     
     Counter(places).keys()
-    for place in Counter(places).values():
-        print(place)
+    print(len(Counter(places).values()))
